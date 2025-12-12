@@ -5,7 +5,8 @@ services:
     build: .
     container_name: tets
     ports:
-      - "6000:6000"
+      - "5001:5001"
     volumes:
       - .:/app
+
 
